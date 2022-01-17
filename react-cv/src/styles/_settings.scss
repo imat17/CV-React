@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+$font-nova: 'Nova Round', cursive;
+$font-dosis: 'Dosis', arial;
+$font-josefin: 'Josefin Sans', arial;
+
+$color-1: #2a1d52;
+$color-1: #6c77f4;
+$color-1: rgb(99, 164, 233);
+$color-1: #4fedd2;
+$color-1: #36d0ea;
+$white: #ddd;
+$black: #333;
+
+$border-radius: 20px;
+$shadow: 0 1px 3px #333;
+$min-height: 95vh;
+
+@mixin verticalCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	margin: 1rem auto;
+	max-width: 1200px;
+	font-family: $font-nova;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: $black;
+}
+
+a:visited {
+	color: $black;
+}

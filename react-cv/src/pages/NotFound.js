@@ -1,9 +1,16 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const NotFound = () => {
 	return (
-		<div>
-			<h3>Hello depuis not found</h3>
+		<div className='notFound'>
+			<div className='notFoundContent'>
+				<h3>Oups ! Petit problème, cette page n'existe pas</h3>
+				<NavLink to='/'>
+					<i className='fas fa-home'></i>
+					<span> Accueil</span>
+				</NavLink>
+			</div>
 		</div>
 	);
 };

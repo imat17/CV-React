@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
 	return (
-		<div classname='sidebar'>
+		<div className='sideBar'>
 			<div className='id'>
 				<div className='idContent'>
-					<img src='./media/billGates.jpg' alt='profil-pic' />
+					<img src='./media/profile_pic.jpg' alt='profil-pic' />
 					<h3>Davaille-Leroy Matisse</h3>
 				</div>
 			</div>
@@ -52,22 +52,19 @@ const Navigation = () => {
 							<i className='fab fa-linkedin'></i>
 						</a>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<a href='https://www.google.fr' target='blank' rel='noopener noreferrer'>
 							<i className='fab fa-github'></i>
 						</a>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<a href='https://www.google.fr' target='blank' rel='noopener noreferrer'>
 							<i className='fab fa-twitter'></i>
 						</a>
 					</li>
-				</ul>
-				<ul>
+
 					<li>
 						<a href='https://www.google.fr' target='blank' rel='noopener noreferrer'>
 							<i className='fab fa-codepen'></i>
